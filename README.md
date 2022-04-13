@@ -4,7 +4,10 @@
 
 ### :bulb:I'm interested in
   - Computer Vision
-  - Data Analysis
+  - Data Scientist
+  - Data Analyst
+  - Machine Learning Engineer
+  - Deep Learning Engineer
 
 
 ###  :muscle:Skills
