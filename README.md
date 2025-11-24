@@ -75,7 +75,7 @@
 <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
 </p>
 
-- 컴퓨터 비전(CV) 관련 모델 실험 경험 및 데이터 전처리 파이프라인 설계 역량
+- Sensor data 관련 모델 실험 경험 및 데이터 전처리 파이프라인 설계 역량
 - 분석·모델 결과를 운영 파이프라인에 안전하게 배포하는 MLOps 관점의 실무 이해
 
 ---
