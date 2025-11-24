@@ -1,86 +1,98 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=200&section=header&text=Hi,%20I'm%20Jeong-Daun.&fontSize=70&animation=fadeIn)
 
 <p align="center">
-   <strong>Data Engineer • Data Pipeline Architect • Cloud 기반 실시간 처리 시스템 개발자</strong>
+  <strong>Data Engineer • Data Pipeline Architect • 실시간 스트리밍 & 클라우드 기반 데이터 플랫폼</strong>
 </p>
 
 ---
 
-## 🔍 About Me
-
-안녕하세요!  
-저는 **Cloud 기반 대용량 데이터 파이프라인 구축과 실시간 스트리밍 시스템 설계·운영을 전문으로 하는 데이터 엔지니어**입니다.
-
-모빌리티 안전 솔루션 스타트업에서  
-**ETL 파이프라인 설계 → 실시간 데이터 수집(MQ/Celery) → DocumentDB 저장 → 배치 분석(Airflow)**  
-전 과정을 직접 구축하며 **데이터 기반 의사결정 체계의 근간**을 만들었습니다.
-
-현재는 분석, 시각화, 저장 구조 최적화 등 **엔드-투-엔드 데이터 플랫폼 구축**을 중심으로 성장하고 있습니다.
+# 🔎 About Me
+데이터 엔지니어로서 **클라우드 기반 대용량 데이터 파이프라인 설계·구축·운영**을 주력으로 하고 있습니다.  
+모빌리티 스타트업에서 실시간 이벤트(10초 단위) 수집 → MQ/Celery 처리 → DocumentDB 저장 → Airflow 배치 및 모니터링까지 엔드-투-엔드 파이프라인을 운영해 본 경험이 있습니다.  
+데이터 품질·비용·성능을 동시에 고려한 설계로 실무 중심의 결과를 만듭니다.
 
 ---
 
-## 💡 What I Do
-
-- 🚀 **실시간 데이터 수집/처리**
-  - RabbitMQ + Celery 기반 스트리밍 시스템 설계
-  - BLE·LTE 단말 이벤트 단위 수집 → DocumentDB 저장
-  - ON/OFF 상태 모니터링 및 알람/로그 시스템 구현
-
-- 🛠 **배치 및 데이터 엔지니어링**
-  - Airflow 기반 데이터 파이프라인 구축 및 운영
-  - 시간 필터링 기반 DocumentDB → DW 적재 자동화
-  - 파티셔닝·데이터 구조 최적화로 스토리지 비용 절감
-
-- ☁️ **클라우드 활용**
-  - AWS (EC2, DocumentDB, Lambda, CloudWatch)
-  - GCP(BigQuery 등) 및 NCP 환경 경험
-  - Docker 기반 배포 및 개발 환경 관리
-
-- 📊 **데이터 분석/관제**
-  - MySQL 기반 내부 대시보드 개발
-  - Python 기반 시각화/모니터링 페이지 제작
-  - Kaggle Competition 참여 경험
+# 🚀 핵심 역량 (Data Engineering 중심)
+- 실시간 데이터 수집/처리 설계 (RabbitMQ + Celery 기반)
+- Airflow를 이용한 배치 오케스트레이션 및 DAG 운영
+- 분산처리(데이터 변환/집계)와 Spark 기반 데이터 처리 파이프라인 설계
+- Docker 기반 컨테이너화 및 클라우드 서비스(특히 AWS DocumentDB / EC2 등) 운영
+- 데이터 파티셔닝, 스키마 설계, 저장소 비용 최적화
+- 모니터링(알람/로그), 운영 자동화, 장애 복구 설계
 
 ---
 
-## 🧰 Tech Stack
+# 🧰 Tech Stack
 
-### 🔧 Data Engineering
+## Core Data Engineering
 <p align="center">
-<img src="https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=Apache Airflow&logoColor=white"/>
-<img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=RabbitMQ&logoColor=white"/>
-<img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=Celery&logoColor=white"/>
-<img src="https://img.shields.io/badge/MongoDB(DocumentDB)-47A248?style=flat-square&logo=MongoDB&logoColor=white"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
+<img src="https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat-square&logo=Apache%20Airflow&logoColor=white" />
+<img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat-square&logo=Apache%20Spark&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=Kubernetes&logoColor=white" />
 </p>
 
-### 💻 Programming
+## Databases & Storage
 <p align="center">
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=Jupyter&logoColor=white"/>
+<img src="https://img.shields.io/badge/DocumentDB--MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=PostgreSQL&logoColor=white" />
+<img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=Oracle&logoColor=white" />
 </p>
 
-### 🏗 Cloud & DevOps
+## Messaging & Stream
 <p align="center">
-<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white"/>
-<img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=RabbitMQ&logoColor=white" />
+<img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=Celery&logoColor=white" />
+<img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=Apache%20Kafka&logoColor=white" />
 </p>
 
-### 📚 Currently Studying
+## Programming & Data Tools
 <p align="center">
-<img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spark-FF7F50?style=flat-square&logo=apache-spark&logoColor=white"/>
-<img src="https://img.shields.io/badge/Tensorflow-FF6F00?style=flat-square&logo=Tensorflow&logoColor=white"/>
-<img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=Keras&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white" />
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=Jupyter&logoColor=white" />
+<img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
+</p>
+
+## Cloud & DevOps
+<p align="center">
+<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" />
+<img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white" />
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white" />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=Linux&logoColor=black" />
 </p>
 
 ---
 
-## 🏆 Competition & Stats
+# 🧠 Domain Knowledge: Data Science & AI
 <p align="center">
-  <img src="https://road-to-kaggle-grandmaster.vercel.app/api/simple/tieckit" />
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=Jupyter&logoColor=white" />
+<img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=Keras&logoColor=white" />
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=TensorFlow&logoColor=white" />
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
 </p>
+
+- 컴퓨터 비전(CV) 관련 모델 실험 경험 및 데이터 전처리 파이프라인 설계 역량
+- 분석·모델 결과를 운영 파이프라인에 안전하게 배포하는 MLOps 관점의 실무 이해
+
+---
+
+# 📂 Selected Projects & Experience (요약)
+- **모빌리티 실시간 수집/관제 플랫폼**
+  - RabbitMQ + Celery로 이벤트 수집, DocumentDB에 저장
+  - 상태(ON/OFF) 감지 로직 및 변경 로그/알람 시스템 구현
+- **Airflow 기반 배치 오케스트레이션**
+  - DocumentDB → 데이터 웨어하우스 적재 자동화, 시간 필터 적용 파이프라인 운영
+- **데이터 저장소 최적화**
+  - 파티셔닝/스키마 설계로 스토리지 비용 절감 및 조회 성능 향상
+- (더 자세한 프로젝트는 각 리포지토리 링크에 정리되어 있습니다)
+
+---
+
+# 🏆 Competition & GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ddaddaradda&show_icons=true&theme=radical" />
@@ -96,8 +108,10 @@
 
 ---
 
-## 📫 Contact
+# 📫 Contact
 <p align="center">
 <a href="mailto:jdubird2@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=Gmail&logoColor=white"></a>
 </p>
+
+---
 
