@@ -90,21 +90,6 @@
   - 파티셔닝/스키마 설계로 스토리지 비용 절감 및 조회 성능 향상
 - (더 자세한 프로젝트는 각 리포지토리 링크에 정리되어 있습니다)
 
----
-
-# 🏆 Competition & GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ddaddaradda&show_icons=true&theme=radical" />
-</p>
-
-<p align="center">
-  <img alt="ddaddaradda's GitHub language card" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ddaddaradda&langs_count=3">
-</p>
-
-<p align="center">
-  <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=jdubird2" />
-</p>
 
 ---
 
